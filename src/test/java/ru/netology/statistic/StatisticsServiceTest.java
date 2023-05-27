@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Assertions;
 public class StatisticsServiceTest {
 
     @Test
-   public void findMax() {
+    public void findMax() {
         StatisticsService service = new StatisticsService();
 
         long[] incomesInBillions = {2, 5, 8, 4, 5, 3, 8, 6, 11, 11, 12};
